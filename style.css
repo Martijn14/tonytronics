@@ -11,6 +11,7 @@ header input
     width: 450px;
     left: calc(50% - 225px);
     top: 1.5em;
+    border-radius: 6px;
 }
 
 header span
