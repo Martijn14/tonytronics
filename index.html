@@ -13,6 +13,37 @@
                     winkelmandNummer += 1;
                     document.getElementById("winkelmandNummer").innerHTML = winkelmandNummer;
                 });
+                $('#050').on('click',function(params) {
+    $('#p1').toggle();
+    $('#p2').toggle();
+    $('#p5').toggle();
+    $('#p6').toggle();
+    $('#p7').toggle();
+    $('#p8').toggle();
+    $('#p9').toggle();
+    $('#p10').toggle();
+    $('#p11').toggle();
+    $('#p12').toggle();
+})
+$('#50100').on('click',function(params) {
+    $('#p1').toggle();
+    $('#p2').toggle();
+    $('#p3').toggle();
+    $('#p4').toggle();
+    $('#p7').toggle();
+    $('#p8').toggle();
+    $('#p9').toggle();
+    $('#p12').toggle();
+})
+$('#100500').on('click',function(params) {
+    $('#p3').toggle();
+    $('#p4').toggle();
+    $('#p5').toggle();
+    $('#p6').toggle();
+    $('#p10').toggle();
+    $('#p11').toggle();
+    
+})
             });
         </script>
     </head>
@@ -33,9 +64,9 @@
         <aside>
             <form>
                 <h4>Prijsss</h4>
-                <input type="checkbox"> €0-€50<br>
-                <input type="checkbox"> €50-€100<br>
-                <input type="checkbox"> €100-€500<br><br>
+                <input type="checkbox" id="#050"> €0-€50<br>
+                <input type="checkbox" id="50100"> €50-€100<br>
+                <input type="checkbox" id="100500"> €100-€500<br><br>
 
                 <h4>Merk</h4>
                 <input type="checkbox"> Merk A<br>
@@ -50,62 +81,62 @@
         </aside>
         
         <main>
-            <div>
+            <div id="p1">
                 <img src="images/producten/product_1.jpg">
                 <h5>PrOdUcT een</h5>
                 <p>€ 219,99</p>
             </div>
-            <div>
+            <div id="p2">
                 <img src="images/producten/product_2.jpg">
                 <h5>Product twee</h5>
                 <p>€ 129,99</p>
             </div>
-            <div>
+            <div id="p3">
                 <img src="images/producten/product_3.jpg">
                 <h5>Product drie</h5>
                 <p>€ 39,99</p>
             </div>
-            <div>
+            <div id="p4">
                 <img src="images/producten/product_4.jpg">
                 <h5>Product vier</h5>
                 <p>€ 49,99</p>
             </div>
-            <div>
+            <div id="p5">
                 <img src="images/producten/product_5.jpg">
                 <h5>Product vijf</h5>
                 <p>€ 59,99</p>
             </div>
-            <div>
+            <div id="p6">
                 <img src="images/producten/product_6.jpg">
                 <h5>Product zes</h5>
                 <p>€ 69,99</p>
             </div>
-            <div>
+            <div id="p7">
                 <img src="images/producten/product_7.jpg">
                 <h5>Product zeven</h5>
                 <p>€ 179,99</p>
             </div>
-            <div>
+            <div id="p8">
                 <img src="images/producten/product_8.jpg">
                 <h5>Product acht</h5>
                 <p>€ 189,99</p>
             </div>
-            <div>
+            <div id="p9">
                 <img src="images/producten/product_9.jpg">
                 <h5>Product negen</h5>
                 <p>€ 299,99</p>
             </div>  
-            <div>
+            <div id="p10">
                 <img src="images/producten/ARDUINO STUDENT KIT.jpg">
                 <h5>ARDUINO STUDENT KIT</h5>
                 <p>€ 79,95</p>
             </div> 
-            <div>
+            <div id="p11">
                 <img src="images/producten/ARDUINO STARTER KIT.jpg">
                 <h5>ARDUINO STARTER KIT</h5>
                 <p>€ 94,95</p>
             </div> 
-            <div>
+            <div id="p12">
                 <img src="images/producten/ARDUINO PORTENTA H7.jpg">
                 <h5>ARDUINO PORTENTA H7</h5>
                 <p>€ 109,95</p>
