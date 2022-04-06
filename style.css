@@ -89,3 +89,14 @@ main div p
     color: black;
     font-weight: bolder;
 }
+.contact{
+    color: black;
+    text-decoration: none;
+   float: right;
+   margin-top: 10px;
+   margin-right: 20px;
+   font-size: 20px;
+}
+.contact:visited{
+    color: black;
+}
